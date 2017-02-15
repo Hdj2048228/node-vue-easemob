@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>LayIM即时通讯 - 在线演示 - layui</title>
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="format-detection" content="telephone=no">
+
+		<link rel="stylesheet" href="src/stylesheets/layui/css/layui.css" media="all">
+		<!--<link rel="stylesheet" href="src/stylesheets/layui/css/global.css" media="all">-->
+		<!--<link rel="stylesheet" href="src/stylesheets/layui/css/modules/layim/layim.css" media="all">-->
+		<script type="text/javascript" src="src/stylesheets/layui/layui.js">
+		</script>
+		<script type="text/javascript" src="src/stylesheets/layui/lay/modules/layim.js"></script>
+
+</head>
+<body>
+
+<div class="layui-tab layui-tab-brief " lay-filter="demoTitle ">
+  
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js "></script>
+
+<div class="layui-layer layui-layer-page layui-box layui-layim-chat layer-anim " id="layui-layer2 " type="page " times="2 " showtime="0 " contype="string " style="z-index: 19891016; width: 800px; top: 100.5px; left: 181.5px; min-width: 500px; min-height: 420px; background-image: url(http://res.layui.com/layui/build/css/modules/layim/skin/5.jpg); height: 520px; overflow: visible; " area="800,520,64,228 ">
+	<div class="layui-layer-title " style="cursor: move; ">&#8203;</div>
+	<div id="layui-layim-chat " class="layui-layer-content " style="height: 440px; ">
+		<ul class="layui-unselect layim-chat-list " style="height: 520px; display: block; ">
+			<li class="layim-chatlist-group101 " layim-event="tabChat "><img src="http://tva1.sinaimg.cn/crop.0.0.200.200.50/006q8Q6bjw8f20zsdem2mj305k05kdfw.jpg "><span>前端群</span><i class="layui-icon " layim-event="closeChat ">ဇ</i></li>
+			<li class="layim-chatlist-group102 " layim-event="tabChat "><img src="http://tva2.sinaimg.cn/crop.0.0.199.199.180/005Zseqhjw1eplix1brxxj305k05kjrf.jpg "><span>Fly社区官方群</span><i class="layui-icon " layim-event="closeChat ">ဇ</i></li>
+			<li class="layim-chatlist-friend100001 layim-this " layim-event="tabChat "><img src="http://tp1.sinaimg.cn/1571889140/180/40030060651/1 "><span>贤心</span><i class="layui-icon " layim-event="closeChat ">ဇ</i></li>
+		</ul>
+		<div class="layim-chat-box " style="margin-left: 200px; ">
+			<div class="layim-chat layim-chat-group ">
+				<div class="layui-unselect layim-chat-title ">
+					<div class="layim-chat-other "><img src="http://tva1.sinaimg.cn/crop.0.0.200.200.50/006q8Q6bjw8f20zsdem2mj305k05kdfw.jpg "><span class="layim-chat-username " layim-event="groupMembers ">前端群   <em class="layim-chat-members "></em><i class="layui-icon "></i> </span>
+						<p class="layim-chat-status "></p>
+					</div>
+				</div>
+				<div class="layim-chat-main " style="height: 262px; ">
+					<ul>
+						<li class="layim-chat-system "><span>模拟群员67加入群聊</span></li>
+						<li class="layim-chat-system "><span>模拟群员83加入群聊</span></li>
+						<li class="layim-chat-system "><span>模拟群员48加入群聊</span></li>
+					</ul>
+				</div>
+				<div class="layim-chat-footer ">
+					<div class="layui-unselect layim-chat-tool " data-json="%7B%22groupname%22%3A%22%E5%89%8D%E7%AB%AF%E7%BE%A4%22%2C%22id%22%3A%22101%22%2C%22avatar%22%3A%22http%3A%2F%2Ftva1.sinaimg.cn%2Fcrop.0.0.200.200.50%2F006q8Q6bjw8f20zsdem2mj305k05kdfw.jpg%22%2C%22name%22%3A%22%E5%89%8D%E7%AB%AF%E7%BE%A4%22%2C%22type%22%3A%22group%22%7D "><span class="layui-icon layim-tool-face " title="选择表情 " layim-event="face "></span><span class="layui-icon layim-tool-image " title="上传图片 " layim-event="image "><input type="file " name="file "></span><span class="layui-icon layim-tool-image " title="发送文件 " layim-event="image " data-type="file "><input type="file " name="file "></span><span class="layui-icon layim-tool-code " title="代码 " layim-event="extend " lay-filter="code "></span><span class="layim-tool-log " layim-event="chatLog "><i class="layui-icon "></i>聊天记录</span></div>
+					<div class="layim-chat-textarea "><textarea></textarea></div>
+					<div class="layim-chat-bottom ">
+						<div class="layim-chat-send "><span class="layim-send-close " layim-event="closeThisChat ">关闭</span><span class="layim-send-btn " layim-event="send ">发送</span><span class="layim-send-set " layim-event="setSend " lay-type="show "><em class="layui-edge "></em></span>
+							<ul class="layui-anim layim-menu-box ">
+								<li class="layim-this " layim-event="setSend " lay-type="Enter "><i class="layui-icon "></i>按Enter键发送消息</li>
+								<li layim-event="setSend " lay-type="Ctrl+Enter "><i class="layui-icon "></i>按Ctrl+Enter键发送消息</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="layim-chat layim-chat-group ">
+				<div class="layui-unselect layim-chat-title ">
+					<div class="layim-chat-other "><img src="http://tva2.sinaimg.cn/crop.0.0.199.199.180/005Zseqhjw1eplix1brxxj305k05kjrf.jpg "><span class="layim-chat-username " layim-event="groupMembers ">Fly社区官方群   <em class="layim-chat-members "></em><i class="layui-icon "></i> </span>
+						<p class="layim-chat-status "></p>
+					</div>
+				</div>
+				<div class="layim-chat-main " style="height: 262px; ">
+					<ul>
+						<li class="layim-chat-system "><span>模拟群员32加入群聊</span></li>
+						<li class="layim-chat-mine ">
+							<div class="layim-chat-user "><img src="http://cdn.firstlinkapp.com/upload/2016_6/1465575923433_33812.jpg "><cite><i>2017-01-20 11:20:09</i>纸飞机</cite></div>
+							<div class="layim-chat-text ">单位宿舍多所</div>
+						</li>
+						<li>
+							<div class="layim-chat-user "><img src="http://res.layui.com/layui/build/images/face/12.gif "><cite>模拟群员17<i>2017-01-20 11:20:10</i></cite></div>
+							<div class="layim-chat-text ">您好，我现在有事不在，一会再和您联系。</div>
+						</li>
+						<li class="layim-chat-system "><span>模拟群员47加入群聊</span></li>
+					</ul>
+				</div>
+				<div class="layim-chat-footer ">
+					<div class="layui-unselect layim-chat-tool " data-json="%7B%22groupname%22%3A%22Fly%E7%A4%BE%E5%8C%BA%E5%AE%98%E6%96%B9%E7%BE%A4%22%2C%22id%22%3A%22102%22%2C%22avatar%22%3A%22http%3A%2F%2Ftva2.sinaimg.cn%2Fcrop.0.0.199.199.180%2F005Zseqhjw1eplix1brxxj305k05kjrf.jpg%22%2C%22name%22%3A%22Fly%E7%A4%BE%E5%8C%BA%E5%AE%98%E6%96%B9%E7%BE%A4%22%2C%22type%22%3A%22group%22%7D "><span class="layui-icon layim-tool-face " title="选择表情 " layim-event="face "></span><span class="layui-icon layim-tool-image " title="上传图片 " layim-event="image "><input type="file " name="file "></span><span class="layui-icon layim-tool-image " title="发送文件 " layim-event="image " data-type="file "><input type="file " name="file "></span><span class="layui-icon layim-tool-code " title="代码 " layim-event="extend " lay-filter="code "></span><span class="layim-tool-log " layim-event="chatLog "><i class="layui-icon "></i>聊天记录</span></div>
+					<div class="layim-chat-textarea "><textarea></textarea></div>
+					<div class="layim-chat-bottom ">
+						<div class="layim-chat-send "><span class="layim-send-close " layim-event="closeThisChat ">关闭</span><span class="layim-send-btn " layim-event="send ">发送</span><span class="layim-send-set " layim-event="setSend " lay-type="show "><em class="layui-edge "></em></span>
+							<ul class="layui-anim layim-menu-box ">
+								<li class="layim-this " layim-event="setSend " lay-type="Enter "><i class="layui-icon "></i>按Enter键发送消息</li>
+								<li layim-event="setSend " lay-type="Ctrl+Enter "><i class="layui-icon "></i>按Ctrl+Enter键发送消息</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="layim-chat layim-chat-friend layui-show ">
+				<div class="layui-unselect layim-chat-title ">
+					<div class="layim-chat-other "><img src="http://tp1.sinaimg.cn/1571889140/180/40030060651/1 "><span class="layim-chat-username " layim-event=" ">贤心  </span>
+						<p class="layim-chat-status "></p>
+					</div>
+				</div>
+				<div class="layim-chat-main " style="height: 262px; ">
+					<ul>
+						<li>
+							<div class="layim-chat-user "><img src="http://tp1.sinaimg.cn/1571889140/180/40030060651/1 "><cite>贤心<i>2017-01-17 14:16:09</i></cite></div>
+							<div class="layim-chat-text ">嗨，你好！欢迎体验LayIM。演示标记：1484633769156</div>
+						</li>
+						<li class="layim-chat-mine ">
+							<div class="layim-chat-user "><img src="http://cdn.firstlinkapp.com/upload/2016_6/1465575923433_33812.jpg "><cite><i>2017-01-17 14:16:41</i>纸飞机</cite></div>
+							<div class="layim-chat-text "><img alt="[思考] " title="[思考] " src="http://res.layui.com/layui/build/images/face/30.gif "> </div>
+						</li>
+						<li>
+							<div class="layim-chat-user "><img src="http://tp1.sinaimg.cn/1571889140/180/40030060651/1 "><cite>贤心<i>2017-01-17 14:16:42</i></cite></div>
+							<div class="layim-chat-text ">(*^__^*) <img alt="[嘻嘻] " title="[嘻嘻] " src="http://res.layui.com/layui/build/images/face/1.gif "> ，是贤心吗？</div>
+						</li>
+						<li class="layim-chat-mine ">
+							<div class="layim-chat-user "><img src="http://cdn.firstlinkapp.com/upload/2016_6/1465575923433_33812.jpg "><cite><i>2017-01-20 09:48:01</i>纸飞机</cite></div>
+							<div class="layim-chat-text "><pre class="layui-code ">fuck you</pre></div>
+						</li>
+						<li>
+							<div class="layim-chat-user "><img src="http://tp1.sinaimg.cn/1571889140/180/40030060651/1 "><cite>贤心<i>2017-01-20 09:48:02</i></cite></div>
+							<div class="layim-chat-text ">您好，我现在有事不在，一会再和您联系。</div>
+						</li>
+						<li class="layim-chat-mine ">
+							<div class="layim-chat-user "><img src="http://cdn.firstlinkapp.com/upload/2016_6/1465575923433_33812.jpg "><cite><i>2017-01-20 09:48:35</i>纸飞机</cite></div>
+							<div class="layim-chat-text ">face[哼</div>
+						</li>
+						<li>
+							<div class="layim-chat-user "><img src="http://tp1.sinaimg.cn/1571889140/180/40030060651/1 "><cite>贤心<i>2017-01-20 09:48:36</i></cite></div>
+							<div class="layim-chat-text ">你没发错吧？<img alt="[微笑] " title="[微笑] " src="http://res.layui.com/layui/build/images/face/0.gif "> </div>
+						</li>
+						<li>
+							<div class="layim-chat-user "><img src="http://tp1.sinaimg.cn/1571889140/180/40030060651/1 "><cite>贤心<i>2017-01-20 11:21:20</i></cite></div>
+							<div class="layim-chat-text ">嗨，你好！欢迎体验LayIM。演示标记：1484882480949</div>
+						</li>
+						<li>
+							<div class="layim-chat-user "><img src="http://tp1.sinaimg.cn/1571889140/180/40030060651/1 "><cite>贤心<i>2017-01-20 11:21:49</i></cite></div>
+							<div class="layim-chat-text ">嗨，你好！欢迎体验LayIM。演示标记：1484882509874</div>
+						</li>
+					</ul>
+				</div>
+				<div class="layim-chat-footer ">
+					<div class="layui-unselect layim-chat-tool " data-json="%7B%22username%22%3A%22%E8%B4%A4%E5%BF%83%22%2C%22id%22%3A%22100001%22%2C%22avatar%22%3A%22http%3A%2F%2Ftp1.sinaimg.cn%2F1571889140%2F180%2F40030060651%2F1%22%2C%22sign%22%3A%22%E8%BF%99%E4%BA%9B%E9%83%BD%E6%98%AF%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE%EF%BC%8C%E5%AE%9E%E9%99%85%E4%BD%BF%E7%94%A8%E8%AF%B7%E4%B8%A5%E6%A0%BC%E6%8C%89%E7%85%A7%E8%AF%A5%E6%A0%BC%E5%BC%8F%E8%BF%94%E5%9B%9E%22%2C%22status%22%3A%22online%22%2C%22name%22%3A%22%E8%B4%A4%E5%BF%83%22%2C%22type%22%3A%22friend%22%7D "><span class="layui-icon layim-tool-face " title="选择表情 " layim-event="face "></span><span class="layui-icon layim-tool-image " title="上传图片 " layim-event="image "><input type="file " name="file "></span><span class="layui-icon layim-tool-image " title="发送文件 " layim-event="image " data-type="file "><input type="file " name="file "></span><span class="layui-icon layim-tool-code " title="代码 " layim-event="extend " lay-filter="code "></span><span class="layim-tool-log " layim-event="chatLog "><i class="layui-icon "></i>聊天记录</span></div>
+					<div class="layim-chat-textarea "><textarea></textarea></div>
+					<div class="layim-chat-bottom ">
+						<div class="layim-chat-send "><span class="layim-send-close " layim-event="closeThisChat ">关闭</span><span class="layim-send-btn " layim-event="send ">发送</span><span class="layim-send-set " layim-event="setSend " lay-type="show "><em class="layui-edge "></em></span>
+							<ul class="layui-anim layim-menu-box ">
+								<li class="layim-this " layim-event="setSend " lay-type="Enter "><i class="layui-icon "></i>按Enter键发送消息</li>
+								<li layim-event="setSend " lay-type="Ctrl+Enter "><i class="layui-icon "></i>按Ctrl+Enter键发送消息</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><span class="layui-layer-setwin "><a class="layui-layer-min " href="javascript:; " style="display: inline-block; "><cite></cite></a><a class="layui-layer-ico layui-layer-max " href="javascript:; "></a><a class="layui-layer-ico layui-layer-close layui-layer-close1 " href="javascript:; "></a></span><span class="layui-layer-resize "></span></div>
+<div class="site-mobile-shade "></div>
+<!--<script src="//res.layui.com/layui/build/layui.js?t=1484130829910 " charset="utf-8 "></script>
+--><script>
+//layui.config({
+//base: '//res.layui.com/lay/modules/layui/'
+//,version: '1484130829910'
+//}).use('global');
+ 
+//window.global = {
+//preview: function(){
+//  var preview = document.getElementById('LAY_preview');
+//  return preview ? preview.innerHTML : '';
+//}()
+//};
+</script>
+<script type="text/javascript ">
+//var cnzz_protocol = (("https: " == document.location.protocol) ? " https:// " : " http:// ");document.write(unescape("%3Cspan id='cnzz_stat_icon_30088308' %3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "w.cnzz.com/c.php%3Fid%3D30088308' type='text/javascript' %3E%3C/script%3E "));
+</script>
+</div>
+<div id="LAY_democodejs ">
+
+</div>
+</body>
+</html>
